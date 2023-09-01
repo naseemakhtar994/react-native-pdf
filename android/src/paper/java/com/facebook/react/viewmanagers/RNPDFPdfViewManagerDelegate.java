@@ -75,7 +75,6 @@ public class RNPDFPdfViewManagerDelegate<T extends View, U extends BaseViewManag
     }
   }
 
-  @Override
   public void receiveCommand(T view, String commandName, ReadableArray args) {
     switch (commandName) {
       case "setNativePage":
